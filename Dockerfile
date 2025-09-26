@@ -1,5 +1,5 @@
-# Usar imagen base de Node.js Alpine (más ligera)
-FROM node:18-alpine
+# Usar imagen base de Node.js 20 Alpine (compatible con n8n)
+FROM node:20-alpine
 
 # Instalar dependencias del sistema necesarias para n8n
 RUN apk add --no-cache \
